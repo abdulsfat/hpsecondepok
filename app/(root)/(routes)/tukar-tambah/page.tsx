@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Tukar Tambah iPhone di Depok",
+    description: "Tukar tambah iPhone lama kamu ke unit yang lebih baru di HP Second Depok. Proses cepat via WhatsApp.",
+    alternates: { canonical: "/tukar-tambah" },
+    // Sementara noindex karena halaman masih "dalam pemeliharaan".
+    // Hapus baris robots ini setelah halamannya sudah ada konten.
+    robots: { index: false, follow: true },
+};
+
 import Link from "next/link";
 
 export default function TukarTambah() {

@@ -23,10 +23,10 @@ export default function WhySection() {
 
             <div className="mt-12 lg:mt-24 mb-12 lg:mb-20 flex justify-between items-center  px-5 lg:px-24">
                 <div>
-                    <h1 className="text-secondary font-sf-pro-semibold text-4xl lg:text-[3.3rem]">
+                    <h2 className="text-secondary font-sf-pro-semibold text-4xl lg:text-[3.3rem]">
                         Mengapa Hpsecondepok adalah <br />
                         tempat terbaik untuk anda?
-                    </h1>
+                    </h2>
                 </div>
             </div>
 

@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Jual iPhone & HP Bekas di Depok",
+    description: "Jual iPhone dan HP bekas kamu ke HP Second Depok. Harga transparan, bisa COD di Depok dan sekitarnya.",
+    alternates: { canonical: "/jual" },
+    // Sementara noindex karena halaman masih "dalam pemeliharaan".
+    // Hapus baris robots ini setelah halamannya sudah ada konten.
+    robots: { index: false, follow: true },
+};
+
 import Link from "next/link";
 
 export default function Jual() {

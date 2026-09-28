@@ -17,9 +17,9 @@ export const footerItems: FooterSection[] = [
 		title: "Sitemap",
 		items: [
 			{ href: "/", title: "Beranda", icon: () => null },
-			{ href: "/product", title: "Product", icon: () => null },
+			{ href: "/produk", title: "Produk", icon: () => null },
 			{ href: "/tukar-tambah", title: "Tukar Tambah", icon: () => null },
-			{ href: "/jual-hp", title: "Jual HP", icon: () => null },
+			{ href: "/jual", title: "Jual Unit", icon: () => null },
 		],
 	},
 	{

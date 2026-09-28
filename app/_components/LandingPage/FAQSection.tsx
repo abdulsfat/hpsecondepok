@@ -18,9 +18,9 @@ export default function FAQSection() {
         <section className=" px-5 lg:px-24">
             <div className="mt-12 lg:mt-24 mb-12 lg:mb-20 flex justify-between items-center ">
                 <div>
-                    <h1 className="text-secondary font-sf-pro-semibold text-4xl lg:text-[3.3rem]">
+                    <h2 className="text-secondary font-sf-pro-semibold text-4xl lg:text-[3.3rem]">
                         FAQs: Your Questions <br/> Answered
-                    </h1>
+                    </h2>
                 </div>
             </div>
 

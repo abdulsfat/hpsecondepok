@@ -1,3 +1,14 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "Daftar Unit iPhone Second Ready Stock",
+    description: "Cek daftar unit iPhone dan HP second ready stock di HP Second Depok. Bisa COD se-Jabodetabek.",
+    alternates: { canonical: "/produk" },
+    // Sementara noindex karena halaman masih "dalam pemeliharaan".
+    // Hapus baris robots ini setelah halamannya sudah ada konten.
+    robots: { index: false, follow: true },
+};
+
 import Link from "next/link";
 
 export default function Produk() {

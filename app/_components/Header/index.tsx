@@ -92,7 +92,7 @@ export function Header() {
 								<Image
 									width={70}
 									height={0}
-									src="/images/logo-blue.svg"
+									src="/images/logo-hs.svg"
 									className="text-primary h-10 w-auto"
 									alt="hpsecondepok logo"
 								/>

@@ -20,9 +20,9 @@ export default function TestimoniSection() {
 
             <div className="mt-24 flex justify-between items-center  px-5 lg:px-24">
                 <div>
-                    <h1 className="text-secondary font-sf-pro-semibold text-4xl lg:text-[3.3rem]">
+                    <h2 className="text-secondary font-sf-pro-semibold text-4xl lg:text-[3.3rem]">
                         Apa yang costumer kami katakan?
-                    </h1>
+                    </h2>
                 </div>
             </div>
 

@@ -11,18 +11,17 @@ export default function Home() {
 
   return (
       <div className="main bg-white rounded-3xl pb-28" data-scroll-speed="0.5">
-          <div className="px-5 lg:px-24 lg:pt-36 pt-12 text-3xl lg:text-[5rem] text-secondary tracking-tight uppercase flex justify-between items-center font-sf-pro mb-16">
-              <div className=' leading-none'>
-                  <h1 className="">jual
-                      beli</h1>
-                  <h1 className="">Tukar Tambah</h1>
-              </div>
-              <div className='text-end leading-none'>
-              <h1 className="">Hp
-                      secon</h1>
-                  <h1 className="">Depok</h1>
-              </div>
-          </div>
+          <h1 className="px-5 lg:px-24 lg:pt-36 pt-12 text-3xl lg:text-[5rem] text-secondary tracking-tight uppercase flex justify-between items-center font-sf-pro mb-16 font-normal">
+              <span className="sr-only">HP Second Depok – Jual Beli &amp; Tukar Tambah iPhone Second di Depok</span>
+              <span aria-hidden="true" className="leading-none">
+                  <span className="block">jual beli</span>
+                  <span className="block">Tukar Tambah</span>
+              </span>
+              <span aria-hidden="true" className="text-end leading-none">
+                  <span className="block">Hp secon</span>
+                  <span className="block">Depok</span>
+              </span>
+          </h1>
           <HeroSection />
 
           <section className="px-5 lg:px-24">

@@ -21,7 +21,7 @@ export function Footer() {
 						<Image
 							width={50}
 							height={50}
-							src="images/logo-blue.svg"
+							src="/images/logo-hs.svg"
 							alt="Logo"
 						/>
 						<h1 className="text-sm lg:text-2xl font-sf-pro-semibold text-secondary tracking-tight mt-2">
@@ -114,7 +114,7 @@ export function Footer() {
 							Copyright © 2025 hpsecondepok. All rights reserved.
 						</div>
 						<div className="text-[0.60rem] text-gray-100 lg:text-sm">
-							Kota Depok, Indonesian
+							Kota Depok, Indonesia
 						</div>
 					</div>
 				</div>
