@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const SITE_URL = "https://www.hpsecondepok.co.id";
+const SITE_URL = "https://hpsecondepok.id";
 
 // Halaman /produk, /jual, /tukar-tambah sengaja belum dimasukkan karena masih
 // "dalam pemeliharaan". Tambahkan di sini setelah kontennya sudah diisi.

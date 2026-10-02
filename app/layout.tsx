@@ -3,7 +3,7 @@ import "./globals.css";
 import { MainLayout } from "@/app/_layouts";
 import { faqItems } from "@/data/faqItems";
 
-const SITE_URL = "https://www.hpsecondepok.co.id";
+const SITE_URL = "https://hpsecondepok.id";
 const SITE_NAME = "HP Second Depok";
 const DESCRIPTION =
   "Jual beli dan tukar tambah iPhone & HP second di Depok. Unit dicek transparan, bisa COD se-Jabodetabek. Chat admin via WhatsApp.";

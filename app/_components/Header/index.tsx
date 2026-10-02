@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { NavItem, navItems } from "@/data";
-import { animationContainer, randomId, slideUp } from "@/utils";
+import { animationContainer, slideUp } from "@/utils";
 import { motion, useAnimation } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { useInView } from "react-intersection-observer";
@@ -108,9 +108,8 @@ export function Header() {
 						<ul className="flex justify-center py-1 items-center ">
 							{navItems.map(({ href, title }: NavItem) => {
 								const isActive = pathname === href;
-								const id = randomId();
 								return (
-									<li key={id}>
+									<li key={href}>
 										<Link href={href} passHref>
 											<div className="flex items-center px-1">
 												<span
@@ -169,9 +168,8 @@ export function Header() {
 					<div className="lg:hidden  py-4 px-8 text-white">
 						<ul className="flex flex-col space-y-4">
 							{navItems.map(({href, title}: NavItem) => {
-								const id = randomId();
 								return (
-									<li key={id}>
+									<li key={href}>
 										<Link
 											href={href}
 											passHref
